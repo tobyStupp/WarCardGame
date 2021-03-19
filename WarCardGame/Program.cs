@@ -10,6 +10,9 @@ namespace WarCardGame
     {
         static void Main(string[] args)
         {
+            Card c = new Card(Shape.HEARTS, 14);
+            Console.WriteLine(c);
+            Console.ReadKey();
         }
     }
 }
